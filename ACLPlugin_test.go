@@ -1,7 +1,7 @@
-package kong
+package SomersaultCloud
 
 import (
-	"service-cloud/utils/kong/models"
+	"SomersaultCloud/models"
 	"testing"
 )
 

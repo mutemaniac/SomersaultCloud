@@ -1,9 +1,9 @@
-package kong
+package SomersaultCloud
 
 import (
 	"errors"
 	"net/url"
-	"service-cloud/utils/kong/models"
+	"SomersaultCloud/models"
 	"strconv"
 
 	"github.com/astaxie/beego/httplib"

@@ -1,9 +1,9 @@
-package kong
+package SomersaultCloud
 
-import "service-cloud/utils/environment"
+import "SomersaultCloud/utils/environment"
 
 var kongAdminURL string
 
 func init() {
-	kongAdminURL = environment.GetEnv("KONG_ADMIN_URL", "http://hnadokku.cloudapp.net:8001")
+	kongAdminURL = environment.GetEnv("KONG_ADMIN_URL", "http://localhost:8001")
 }

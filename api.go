@@ -1,11 +1,12 @@
-package kong
+package SomersaultCloud
+
 
 import (
 	"bytes"
 	"errors"
 	"net/http"
 	"net/url"
-	"service-cloud/utils/kong/models"
+	"SomersaultCloud/models"
 	"strconv"
 
 	"encoding/json"

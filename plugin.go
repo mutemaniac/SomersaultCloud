@@ -1,10 +1,10 @@
-package kong
+package SomersaultCloud
 
 import (
 	"errors"
 	"net/url"
 	"reflect"
-	"service-cloud/utils/kong/models"
+	"SomersaultCloud/models"
 	"strconv"
 
 	"strings"
