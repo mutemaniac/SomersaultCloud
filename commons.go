@@ -1,6 +1,6 @@
 package SomersaultCloud
 
-import "SomersaultCloud/utils/environment"
+import "github.com/mutemaniac/SomersaultCloud/utils/environment"
 
 var kongAdminURL string
 

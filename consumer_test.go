@@ -1,7 +1,7 @@
 package SomersaultCloud
 
 import (
-	"SomersaultCloud/models"
+	"github.com/mutemaniac/SomersaultCloud/models"
 	"testing"
 )
 

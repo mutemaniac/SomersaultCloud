@@ -1,17 +1,18 @@
 package SomersaultCloud
 
 import (
-	"SomersaultCloud/models"
 	"testing"
+
+	"github.com/mutemaniac/SomersaultCloud/models"
 )
 
 func TestAddApi(t *testing.T) {
 	//test add api
 	var api models.API
-	api.Name = "test"
+	api.Name = "testforapi"
 	api.PreserveHost = true
 	api.RequestHost = "reqhost"
-	api.RequestPath = "/test"
+	api.RequestPath = "/testforapi"
 	api.StripRequestPath = false
 	api.UpstreamURL = "http://www.baidu.com/"
 

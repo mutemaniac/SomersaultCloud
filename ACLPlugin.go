@@ -3,8 +3,9 @@ package SomersaultCloud
 import (
 	"errors"
 	"net/url"
-	"SomersaultCloud/models"
 	"strconv"
+
+	"github.com/mutemaniac/SomersaultCloud/models"
 
 	"github.com/astaxie/beego/httplib"
 )

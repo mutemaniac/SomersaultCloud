@@ -1,8 +1,9 @@
 package SomersaultCloud
 
 import (
-	"SomersaultCloud/models"
 	"testing"
+
+	"github.com/mutemaniac/SomersaultCloud/models"
 )
 
 func TestAddKeyAuthPlugin2Api(t *testing.T) {
@@ -11,7 +12,7 @@ func TestAddKeyAuthPlugin2Api(t *testing.T) {
 	api.Name = "testkeyauth"
 	api.PreserveHost = true
 	api.RequestHost = "reqhost"
-	api.RequestPath = "/test"
+	api.RequestPath = "/testkeyauth"
 	api.StripRequestPath = false
 	api.UpstreamURL = "http://www.baidu.com/"
 	retAPI, _ := AddAPI(&api)

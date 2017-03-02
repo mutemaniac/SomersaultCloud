@@ -4,8 +4,9 @@ import (
 	"errors"
 	"net/url"
 	"reflect"
-	"SomersaultCloud/models"
 	"strconv"
+
+	"github.com/mutemaniac/SomersaultCloud/models"
 
 	"strings"
 

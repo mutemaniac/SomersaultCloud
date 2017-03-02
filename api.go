@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 	"net/url"
-	"SomersaultCloud/models"
+	"github.com/mutemaniac/SomersaultCloud/models"
 	"strconv"
 
 	"encoding/json"
